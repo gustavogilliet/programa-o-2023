@@ -1,0 +1,33 @@
+.p1{
+    background-color: aliceblue;
+    font-size: 16px;
+}
+
+.p4{
+    background-color: aquamarine;
+    font-size: 30px;
+}
+
+.demais p{
+    font-size: 40px;
+}
+
+footer{
+    background-color: black;
+    right: 5%;
+}
+
+.imagem{
+    
+}
+
+a{
+    text-align: center;
+    margin: 0%;
+    right: 16px;
+    left: 16px;
+}
+
+li{
+    background-color: aliceblue;
+}
