@@ -1,11 +1,13 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
+    text-align: center; /* Alinha o texto ao centro */
 }
 
 .menu {
     background-color: #333;
     overflow: hidden;
+    text-align: center; /* Alinha o menu ao centro */
 }
 
 .menu ul {
@@ -15,7 +17,8 @@ body {
 }
 
 .menu li {
-    float: left;
+    display: inline; /* Exibe os itens do menu na mesma linha */
+    margin-right: 10px; /* Espaçamento entre os itens do menu */
 }
 
 .menu a {
@@ -40,7 +43,6 @@ body {
     bottom: 10px;
     right: 10px;
     max-width: 300px;
-    display: none;
 }
 
 .balao-fala .fechar {
@@ -52,6 +54,8 @@ body {
 }
 
 .conteudo {
-    margin: 20px;
+    margin: 20px auto; /* Centraliza o conteúdo */
+    max-width: 800px; /* Define a largura máxima do conteúdo */
+    text-align: left; /* Alinha o texto à esquerda */
     line-height: 1.6;
 }
